@@ -100,13 +100,13 @@ public class FrameSystemView extends Frame implements ActionListener,WindowListe
 	@Override
 	public void windowClosing(WindowEvent e) {
 		// TODO Auto-generated method stub
-		
+		System.exit(0);
 	}
 
 	@Override
 	public void windowClosed(WindowEvent e) {
 		// TODO Auto-generated method stub
-		System.exit(0);
+		
 	}
 
 	@Override
